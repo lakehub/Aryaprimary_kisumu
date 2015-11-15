@@ -19,6 +19,7 @@ Follow me on Twitter @maridlcrmn
 
 .btn.btn-circle { border-radius: 50px; }
 .btn.btn-outline { background-color: transparent; }
+.navbar{border-radius: 0;}
 
 @media screen and (max-width: 767px) {
 	.navbar .navbar-collapse { padding-left: 15px; padding-right: 15px; }
