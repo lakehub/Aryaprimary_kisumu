@@ -41,6 +41,19 @@ Follow me on Twitter @maridlcrmn
 	padding: 0;
 }
 
+
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 	width: 100%;
+}
+.navbar-inverse {
+    background-color: #7F0000;
+    border-color: #FFCCCC;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #430000;
+}
+.dropdown-menu .divider {
+    
+    background-color: #7F0000;
 }
