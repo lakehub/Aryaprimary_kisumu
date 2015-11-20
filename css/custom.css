@@ -1,248 +1,275 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
 /* navbar */
 /*
 Code snippet by maridlcrmn for Bootsnipp.com
 Follow me on Twitter @maridlcrmn
  */
 
-.navbar-brand { position: relative; z-index: 2; }
-
-.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
-
-.navbar .navbar-collapse { position: relative; }
-.navbar .navbar-collapse { padding-left: 22px; }
-
-.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
-.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
-.navbar.navbar-inverse .nav-collapse { background-color: #222; }
-.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
-.nav-collapse>li { float: right; }
-
-.btn.btn-circle { border-radius: 50px; }
-.btn.btn-outline { background-color: transparent; }
-.navbar{border-radius: 0;}
-
-@media screen and (max-width: 767px) {
-	.navbar .navbar-collapse { padding-left: 15px; padding-right: 15px; }
-
-	.navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
-	.navbar .nav-collapse .navbar-form { margin: 0; }
-	.nav-collapse>li { float: none; }
-}
+	.navbar-brand { position: relative; z-index: 2; }
 
 
-/* teachers */
-.hide-bullets {
-	list-style: none;
-	margin-left: -40px;
-	margin-top: 20px;
-}
+	.navbar .navbar-collapse { position: relative; }
+	.navbar .navbar-collapse { padding-left: 22px; }
 
-.thumbnail {
-	/* padding: 0; */
-}
+	/* .navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; } */
+	/* .navbar.navbar-default .nav-collapse { background-color: #f8f8f8; } */
+	/* .navbar.navbar-inverse .nav-collapse { background-color: #222; } */
+	/* .navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; } */
+	/* .nav-collapse>li { float: right; } */
 
+	.navbar {
+		border-radius: 0;
+		box-shadow: 0px 6px 2px -3px #CEC3E0;
+	}
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-	width: 100%;
-}
-.navbar-inverse {
-    background-color: #7F0000;
-    border-color: #7F0000;
-}
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #fff;
-    background-color: #430000;
-}
-.dropdown-menu .divider {
-    
-    background-color: #7F0000;
-}
-h2.table-header{
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-}
-.inner-wrapper{
-	position: relative;
-	max-height: 100%;
-}
-.overlay{
-	background: url('../images/overlay-bg.png') repeat;
-	color: white;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	padding: 1em;
+	.navbar-inverse {
+		background-color: #7F0000;
+		border-color: #7F0000;
+	}
 
-}
+	/* .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover { */
+	/*     color: #fff; */
+	/*     background-color: #430000; */
+	/*
+	} */
+	.dropdown-menu .divider {
+		background-color: #7F0000;
+	}
+	.dropdown-menu {
+		background-color: #7F0000;
+	}
 
+	.navbar-inverse .navbar-nav > li > a, .dropdown-menu > li > a {
+		color: white;
+		font-weight: medium;
+		font-family: 'Raleway', sans-serif;
 
-/*+++++++++++++++++++++++++++++++++++++++++footer start */
-.footer-distributed{
-	background-color:#5C514F;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
+		/* font-family: 'Cuprum', sans-serif; */
+		transition: background-color 0.8s;
+		-webkit-transition: background-color 0.8s;
+		-o-transition: background-color 0.8s;
+		-moz-transition: background-color 0.8s;
+	}
+	.navbar-inverse .navbar-nav > li > a:hover {
+		background-color: white;
+		color: #7F0000;
 
-	padding: 55px 50px;
-	margin-top: 80px;
-}
+		/* border-bottom: 2px solid blue; */
+	}
+	.navbar-inverse .navbar-brand {
+		font-family: 'Indie Flower', cursive;
+		color: white;
+	}
+	@media screen and (max-width: 767px) {
+		.navbar .navbar-collapse { padding-left: 15px; padding-right: 15px; }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 40%;
-}
-
-/* The company logo */
-
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
-}
-
-.footer-distributed h3 span{
-	color:  #5383d3;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
-
-.footer-distributed .footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
-
-/* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
-	background-color:  #5C514F;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
-
-.footer-distributed .footer-center p a{
-	color:  #5383d3;
-	text-decoration: none;;
-}
+		.navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+		.navbar .nav-collapse .navbar-form { margin: 0; }
+		.nav-collapse>li { float: none; }
+	}
 
 
-/* Footer Right */
+	/* teachers */
+	.hide-bullets {
+		list-style: none;
+		margin-left: -40px;
+		margin-top: 20px;
+	}
 
-.footer-distributed .footer-right{
-	width: 20%;
-}
 
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color: #B3B4B5;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-}
+	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+		width: 100%;
+	}
 
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
 
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
+	h2.table-header {
+		font-size: 1.5em;
+		font-weight: bold;
+		text-align: center;
+	}
 
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #5C514F;
-	border-radius: 2px;
+	/* teachers */
+	.inner-wrapper {
+		position: relative;
+		max-height: 100%;
+	}
+	.overlay {
+		background: url('../images/overlay-bg.png') repeat;
+		color: white;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding: 1em;
+	}
 
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
 
-	margin-right: 3px;
-	margin-bottom: 5px;
-}
+	/*+++++++++++++++++++++++++++++++++++++++++footer start */
+	.footer-distributed {
+		background-color: #5C514F;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+		font: bold 16px sans-serif;
 
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 880px) {
-
-	.footer-distributed{
-		font: bold 14px sans-serif;
+		padding: 55px 50px;
+		margin-top: 80px;
 	}
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
+	.footer-distributed .footer-right {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	/* Footer left */
+
+	.footer-distributed .footer-left {
+		width: 40%;
+	}
+
+	/* The company logo */
+
+	.footer-distributed h3 {
+		color: #ffffff;
+		font: normal 36px 'Cookie', cursive;
+		margin: 0;
+	}
+
+	.footer-distributed h3 span {
+		color: #5383d3;
+	}
+
+	/* Footer links */
+
+	.footer-distributed .footer-links {
+		color: #ffffff;
+		margin: 20px 0 12px;
+		padding: 0;
+	}
+
+	.footer-distributed .footer-links a {
+		display: inline-block;
+		line-height: 1.8;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.footer-distributed .footer-company-name {
+		color: #8f9296;
+		font-size: 14px;
+		font-weight: normal;
+		margin: 0;
+	}
+
+	/* Footer Center */
+
+	.footer-distributed .footer-center {
+		width: 35%;
+	}
+
+	.footer-distributed .footer-center i {
+		background-color: #5C514F;
+		color: #ffffff;
+		font-size: 25px;
+		width: 38px;
+		height: 38px;
+		border-radius: 50%;
 		text-align: center;
+		line-height: 42px;
+		margin: 10px 15px;
+		vertical-align: middle;
 	}
 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
+	.footer-distributed .footer-center i.fa-envelope {
+		font-size: 17px;
+		line-height: 38px;
 	}
 
-}
+	.footer-distributed .footer-center p {
+		display: inline-block;
+		color: #ffffff;
+		vertical-align: middle;
+		margin: 0;
+	}
+
+	.footer-distributed .footer-center p span {
+		display: block;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 2;
+	}
+
+	.footer-distributed .footer-center p a {
+		color: #5383d3;
+		text-decoration: none;;
+	}
+
+
+	/* Footer Right */
+
+	.footer-distributed .footer-right {
+		width: 20%;
+	}
+
+	.footer-distributed .footer-company-about {
+		line-height: 20px;
+		color: #B3B4B5;
+		font-size: 13px;
+		font-weight: normal;
+		margin: 0;
+	}
+
+	.footer-distributed .footer-company-about span {
+		display: block;
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	.footer-distributed .footer-icons {
+		margin-top: 25px;
+	}
+
+	.footer-distributed .footer-icons a {
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+		background-color: #5C514F;
+		border-radius: 2px;
+
+		font-size: 20px;
+		color: #ffffff;
+		text-align: center;
+		line-height: 35px;
+
+		margin-right: 3px;
+		margin-bottom: 5px;
+	}
+
+	/* If you don't want the footer to be responsive, remove these media queries */
+
+	@media (max-width: 880px) {
+		.footer-distributed {
+			font: bold 14px sans-serif;
+		}
+
+		.footer-distributed .footer-left,
+		.footer-distributed .footer-center,
+		.footer-distributed .footer-right {
+			display: block;
+			width: 100%;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+
+		.footer-distributed .footer-center i {
+			margin-left: 0;
+		}
+	}
