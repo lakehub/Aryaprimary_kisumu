@@ -273,3 +273,8 @@ Follow me on Twitter @maridlcrmn
 			margin-left: 0;
 		}
 	}
+
+	.slider_section img{
+		max-height: 535px;
+	}
+
